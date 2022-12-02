@@ -1,0 +1,64 @@
+/* GENERAL STYLES */
+
+@import url(reset.css);
+
+
+@font-face {
+    font-family: vazirNormal;
+    src: url('../fonts/vazir.eot');
+    src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff'), url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: vazirBold;
+    src: url('../fonts/vazir-bold.eot');
+    src: url('../fonts/vazir-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir-bold.woff2') format('woff2'), url('../fonts/vazir-bold.woff') format('woff'), url('../fonts/vazir-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+
+body {
+    /* font-family: 'cascadia code'; */
+    background-color: rgb(251, 128, 105);
+    font-family: vazirNormal;
+}
+
+/* GENERAYTOR */
+
+#select-color {
+    background-color: rgba(59, 59, 59, 0.8);
+    color: #fff;
+    width: 400px;
+    padding: 10px;
+    margin: 200px auto 0 auto;
+    border: none;
+    border-radius: 3px;
+} 
+
+
+#select-color input[type = 'range'] {
+    width: 100%;
+}
+
+#select-color #btn {
+    text-align: center;
+}
+
+
+#select-color #btn #random {
+    border: none;
+    background-color: #dfdfdf;
+    border-radius: 3px;
+    padding: 8px 12px;
+}
+
+
+#select-color #btn #random:hover {
+    cursor: pointer;
+    background-color: #b1b1b1;
+}
